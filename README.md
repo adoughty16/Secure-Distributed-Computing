@@ -27,4 +27,3 @@ Data Server:
 Reporting Party:
 -	Can request Public-Key from Computation Server
 -	Uses Public-Key to encrypt employee salaries and sends lists of cyphertexts to the Data Server separated by M/F (separately submits a list of encrypted male salaries, and a list of encrypted female salaries)
-![image](https://github.com/adoughty16/Secure-Distributed-Computing/assets/112493361/2194724e-b484-490c-96e8-ba17bf856ac0)
