@@ -3,7 +3,7 @@
 This is a sample program designed to demonstrate anonymous and secure salary data reporting/aggregation techniques. It is based on the salary reporting system implemented by the
 Boston Women's Workforce Council. More information on this system can be found on their website: https://thebwwc.org/mpc
 
-NOTE: This technique allows the Data Server to potentially skew the results of the survey by failing to report all the data it has collected. This can be fixed easily by adding a system where the reporting party tells the computation server how much data it is submitting. This way if there is a disparity between the data expected and the data recieved, the computation server will know that the data server has tampered with the reporting system.
+NOTE: This technique allows the Data Server to potentially skew the results of the survey by failing to report all the data it has collected. This can be fixed easily by adding a system wherein the reporting party communicates to the computation server how many datapoints it is submitting. This way if there is a disparity between the data expected and the data recieved, the computation server will know that the data server has tampered with the reporting system.
 
 ## The Problem:
 
