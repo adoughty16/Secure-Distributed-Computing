@@ -19,11 +19,13 @@ Computation Server:
 -	Secret-Key is private/withheld
 -	Has function to compute the averages of two lists of encrypted salaries, will return computed plaintext averages
 -	Has no way to link decrypted salaries to reporting parties
+
 Data Server:
 -	Stores encrypted salary data from reporting parties
 -	Shuffles salary list with each submission so that reporting party data cannot be intuited from the order of the data submissions (Not strictly necessary, but a simple added layer of security)
 -	Has no access to the Secret-Key
 -	Can call Computation Server function to calculate averages
+
 Reporting Party:
 -	Can request Public-Key from Computation Server
 -	Uses Public-Key to encrypt employee salaries and sends lists of cyphertexts to the Data Server separated by M/F (separately submits a list of encrypted male salaries, and a list of encrypted female salaries)
