@@ -1,4 +1,4 @@
-# Secure-Distributed-Computing
+# Secure-Distributed-Computing (MPC)
 
 This is a sample program designed to demonstrate anonymous and secure salary data reporting/aggregation techniques. It is based on the salary reporting system implemented by the
 Boston Women's Workforce Council. More information on this system can be found on their website: https://thebwwc.org/mpc
